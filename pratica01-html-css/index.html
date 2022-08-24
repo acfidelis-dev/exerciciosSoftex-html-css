@@ -12,7 +12,8 @@
         html main ul img {width: 100%; display: block; margin-left: auto; margin-right: auto;}
         header h3 {color: #06080D; text-align: center; padding: 10px; border-top: 3px solid #f2f2f2;}
         details {color: #06080D; text-align: center; margin: 10px 0px 50px 0px; cursor: pointer;}
-        input {border-radius: 4px; border-color: #1B8EF2;}
+        input {border-radius: 4px; border-color: #1B8EF2; width: 250px; height: 20px;}
+        ::placeholder {position: absolute; top: 0; left: 0; padding: 3px;}
         button {cursor: pointer; color:#f2f2f2; background-color:#1B8EF2; border-radius: 4px; border-color:#1B8EF2;}
         footer {display: flex; flex-direction: column; padding: 20px;}
         ul {color: #06080D; margin: 0px 0px 20px 0px; list-style: none; padding: 10px;}
@@ -88,7 +89,7 @@
       <p><input type="text" placeholder="Nome" name="Name" required></p>
       <p><input type="text" placeholder="Email" name="Email" required></p>
       <p><input type="text" placeholder="Assunto" name="Subject" required></p>
-      <p><input type="text" placeholder="Mensagem" name="Message" required></p>
+      <p><input style="width: 250px; height: 200px;" type="text" placeholder="Mensagem" name="Message" required></p>
       <button type="submit">Enviar</button>
     </form>
 
